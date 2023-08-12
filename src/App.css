@@ -1,0 +1,69 @@
+
+
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+p , ul{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+body {
+  background-color: #4c5272;
+
+}
+.header {
+  display: inline-block;
+  width: 100%;
+  text-align: center; /* Optional: Center the content horizontally within each button */
+  box-sizing: border-box; /* Optional: Include padding and border within the width */
+  padding: 0px; /* Optional: Add padding for spacing between buttons */
+  margin: 0;
+  border: solid black 1px;
+  background-color: rgb(147, 147, 212);
+  border-radius: 35px;
+}
+.home_Button, .admin_Button, .calculator_Button {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center; /* Optional: Center the content horizontally within each button */
+  box-sizing: border-box; /* Optional: Include padding and border within the width */
+  margin: 0;
+  border-radius: 35px;
+  background-color: rgb(147, 147, 212);
+}
+.home_Button:hover, .admin_Button:hover, .calculator_Button:hover {
+  font-style:oblique;
+  background-color: white;
+  border-radius: 35px;
+}
+.title {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  font-size: 4em;
+  color: white;
+  align-items: center;
+  background-color: #4c5272;
+  justify-content: center;
+}
+img {
+  height: 300px;
+  width: 100%;
+  display: flexbox;
+  align-items: center;
+  justify-content: center; 
+}
+
