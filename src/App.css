@@ -43,7 +43,7 @@ body {
   border-radius: 35px;
   background-color: rgb(147, 147, 212);
 }
-.home_Button:hover, .admin_Button:hover, .calculator_Button:hover {
+.home_Button:hover, .admin_Button:hover, .calculator_Button:hover, .loader:hover {
   font-style:oblique;
   background-color: white;
   border-radius: 35px;
