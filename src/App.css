@@ -31,12 +31,12 @@ body {
   padding: 0px; /* Optional: Add padding for spacing between buttons */
   margin: 0;
   border: solid black 1px;
-  background-color: rgb(147, 147, 212);
+  background-color: #9393d4;
   border-radius: 35px;
 }
-.home_Button, .admin_Button, .calculator_Button {
+.home_Button, .admin_Button, .calculator_Button, .loader{
   display: inline-block;
-  width: 33.3%;
+  width: 25%;
   text-align: center; /* Optional: Center the content horizontally within each button */
   box-sizing: border-box; /* Optional: Include padding and border within the width */
   margin: 0;
