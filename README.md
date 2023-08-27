@@ -1,11 +1,7 @@
-# Getting Started -
+This is simply a site containing various simple react components created by me to demonstrate my ability to add/remove/edit components and publish changes to GH.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TO BEGIN
 
-## Available Scripts
+`npm install` to get node_modules installed into the folder
 
-In the project directory, you can run:
-
-### `npm install` to get node_modules installed into the folder
-
-### then run `npm start`
+then run `npm start` to run the project
