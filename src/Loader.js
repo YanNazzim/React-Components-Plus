@@ -3,7 +3,7 @@ import React from "react";
 const Loader = () => {
     return (
         <div className="circle-container">
-            <h2>Circle Loader</h2>
+            <h2 className="circTitle">Circle Loader</h2>
             <div className="orbit-effect">
                 <div className="orbit-container">
                     <div className="circle"></div>

@@ -2,10 +2,10 @@ import './App.css';
 import React from'react';
 import Home from './Home';
 import AdminUtil from './Admin_util';
-import "./Admin_util.css"
-import Calculations from './calculator_tool/Calculator';
+import "./GitHub.css"
 import Loader from './Loader';
 import './Blob.css'
+import GitHub from "./GitHub"
 import {
   Route, Routes,
   NavLink,
@@ -17,13 +17,11 @@ function App() {
 <HashRouter>
             <div>
                 <h1 className='title'>React Project</h1>
-                <h2>Calculator is kinda broken but it looks cool..)</h2>
-                <h2> (it doesnt do math for some reason)</h2>
                 <ul className="header">
                     <li className='home_Button'><NavLink to="/Home">Home</NavLink></li>
-                    <li className='admin_Button'><NavLink to="/Admin_util">Admin Tools</NavLink></li>
-                    <li className='calculator_Button'><NavLink to="/Calculations">Calculations</NavLink></li>
+                    <li className='github_Button'><NavLink to="/GitHub">GitHub</NavLink></li>
                     <li className='loader'><NavLink to="/Loader">Blob</NavLink></li>
+                    <li className='admin_Button'><NavLink to="/Admin_util">Admin Tools</NavLink></li>
                     
                 </ul>
             <div className="content">
@@ -31,7 +29,7 @@ function App() {
             <Routes>
                 <Route path="/Home" element={<Home/>}/>
                 <Route path="/Admin_util" element={<AdminUtil/>}/>
-                <Route path="/Calculations" element={<Calculations/>}/>
+                <Route path="/GitHub" element={<GitHub/>}/>
                 <Route path="/Loader" element={<Loader/>}/>
             </Routes>
             </div>

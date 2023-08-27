@@ -1,4 +1,10 @@
+a {
+  color: #4800ff;
+}
 
+a:hover {
+  color:#09c5e8 !important ;
+}
 
 
 h2 {
@@ -34,14 +40,14 @@ body {
   background-color: #9393d4;
   border-radius: 35px;
 }
-.home_Button, .admin_Button, .calculator_Button, .loader{
+.home_Button, .admin_Button, .github_Button, .loader{
   display: inline-block;
   width: 25%;
   text-align: center; /* Optional: Center the content horizontally within each button */
   box-sizing: border-box; /* Optional: Include padding and border within the width */
   margin: 0;
   border-radius: 35px;
-  background-color: rgb(147, 147, 212);
+  background-color: #9393d4;
 }
 .home_Button:hover, .admin_Button:hover, .calculator_Button:hover, .loader:hover {
   font-style:oblique;
@@ -67,3 +73,17 @@ img {
   justify-content: center; 
 }
 
+.time {
+  display: flex;
+  padding-top: 100px;
+}
+
+.home {
+  display:flex;
+  padding-top: 50px;
+}
+
+.circTitle {
+  display: flex;
+  padding-bottom: 100px;
+}

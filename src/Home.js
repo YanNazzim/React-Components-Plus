@@ -15,9 +15,8 @@ const Home = () => {
 
   return (
     <div>
-      <h2>Home Page</h2>
-      <p>This is the Homepage showing nothing but the</p>
-      <h2>Current Time: {currentTime.toLocaleTimeString()}</h2>
+      <h2 className="home">Home Page</h2>
+      <h2 className="time">Current Time: {currentTime.toLocaleTimeString()}</h2>
     </div>
   );
 };
